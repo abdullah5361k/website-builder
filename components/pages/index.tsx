@@ -66,7 +66,7 @@ const Index = () => {
 
   return (
     <div className="h-screen flex bg-customBg">
-      {/* <ChatSidebar
+      <ChatSidebar
         conversations={conversations}
         currentConversationId={currentConversation?.id || null}
         onSelectConversation={setCurrentConversationId}
@@ -96,7 +96,7 @@ const Index = () => {
           isLoading={isLoading}
           placeholder={`Ask ${selectedModel.name} anything...`}
         />
-      </div> */}
+      </div>
     </div>
   );
 };
